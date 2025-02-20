@@ -21,3 +21,17 @@ print("Model loaded successfully.")
 predictions = model(X_test).detach().numpy()
 print("Predictions generated:", predictions)
 
+import matplotlib.pyplot as plt
+
+# Scatter plot of predictions
+plt.figure(figsize=(8, 6))
+plt.scatter(range(len(predictions)), predictions, color='blue', label='Predictions')
+plt.xlabel("Sample Index")
+plt.ylabel("Predicted Value")
+plt.title("Interatomic Potential Predictions")
+plt.legend()
+
+# Save the figure as an image
+plt.savefig("results/predictions_plot.png")  
+print("Plot saved as 'results/predictions_plot.png'")
+
