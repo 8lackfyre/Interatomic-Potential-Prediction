@@ -1,0 +1,10 @@
+numpy
+pandas
+torch
+torchvision
+ase
+schnetpack
+matplotlib
+scikit-learn
+jupyter
+
