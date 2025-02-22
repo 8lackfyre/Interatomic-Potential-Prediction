@@ -1,5 +1,7 @@
 # Interatomic Potential Prediction using Deep Learning
 
+![Visualized Data](https://raw.githubusercontent.com/8lackfyre/Interatomic-Potential-Prediction/refs/heads/master/results/predictions_plot.png)
+
 This project trains a deep neural network to predict **interatomic potentials** based on atomic descriptors. It uses **ASE (Atomic Simulation Environment)** for feature extraction and **PyTorch** for training a model.
 
 ---
